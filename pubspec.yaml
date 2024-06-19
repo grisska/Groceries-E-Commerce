@@ -1,0 +1,68 @@
+name: groceries_commerce
+description: "Aplikasi e-commerce untuk produk groceries."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^4.2.1
+  provider: ^6.0.3
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.2.3
+  google_fonts: ^4.0.4
+  intl: ^0.19.0
+  fluttertoast: ^8.2.6
+  firebase_core: ^3.1.0
+  cloud_firestore: ^5.0.1
+  firebase_auth: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/Groceries.png
+    - assets/Sayur.jpg
+    - assets/promo sayur.png
+    - assets/buah.jpg
+    - assets/daging.jpg
+    - assets/bumbudapur.jpg
+    - assets/makananbeku.jpg
+    - assets/makanankaleng.jpg
+    - assets/makananringan.jpg
+    - assets/minuman.jpg
+    - assets/roti.jpg
+    - assets/susu.jpg
+    - assets/air_mineral.jpg
+    - assets/apel.jpg
+    - assets/bayam.jpg
+    - assets/brokoli.jpg
+    - assets/cokelat.jpg
+    - assets/daging_ayam.jpg
+    - assets/daging_sapi.jpg
+    - assets/garam.jpg
+    - assets/jus_jeruk.jpg
+    - assets/kentang_beku.jpeg
+    - assets/keripik_kentang.jpg
+    - assets/kornet.jpg
+    - assets/lada.jpg
+    - assets/nugget_ayam.jpg
+    - assets/pisang.jpg
+    - assets/roti_tawar.jpg
+    - assets/sarden.jpg
+    - assets/susu_kental_manis.jpg
+    - assets/susu_uht.jpg
+    - assets/brownies.jpg
+    - assets/diandra.jpg
+    - assets/grisska.jpeg
+    - assets/logout.png
+  uses-material-design: true
